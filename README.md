@@ -281,41 +281,31 @@ For this assignment you will be building upon our Football Club application by c
 ### Setup
 *Note: This is a big assignment, start early and work on getting simple things working first.* 
 
-1. To help us get started quickly, we will be using [create-react-app](https://github.com/facebook/create-react-app#creating-an-app), a template generator for creating React Applications quickly without having to install a ton of external dependencies. 
+1. First clone accept the assignment and clone the project to your machine. Then navigate to the assignment and run this command in terminal to install the dependencies
 
-First clone accept the assignment and clone the project to your machine. Then navigate to the assignment and run these commands in terminal to create a starter application my-app (note: you can change this to lab4 if you like.)
+`npm i`
 
-`npx create-react-app my-app`
 
-or
 
-`yarn create react-app my-app`
-
-or
-
-`npm init react-app my-app`
-
-2.  After the installation has finished you should be able to cd into the project directory. 
-
-3. Inside the newly created project, you can run some built-in commands:
+2. Run your app with the command:
 
     `npm start` or `yarn start`
 
     Runs the app in development mode.
 
-4. It should auto-open http://localhost:3000 in the browser after it starts up a server for you. If a browser doesn't open up, copy and paste this link into your web browser with a starter page.
+3. It should auto-open http://localhost:3000 in the browser after it starts up a server for you. If a browser doesn't open up, copy and paste this link into your web browser with a starter page.
 
-5. After this you should open the folder and replace the src file with the file for this Lab #4 github repo. You should then be able to see the lists of the football clubs (school and mascot) in a table, search/filter textbox and space to output details about your project.
+4. One great resource we can use to help us with our css styling is [semantic-ui](https://react.semantic-ui.com/). This helps us import styles so we don't have to manually style everything. If you're interested in this (which I highly recommend) then you can get started [here](https://react.semantic-ui.com/usage).
 
-6. One great resource we can use to help us with our css styling is [semantic-ui](https://react.semantic-ui.com/). This helps us import styles so we don't have to manually style everything. If you're interested in this (which I highly recommend) then you can get started [here](https://react.semantic-ui.com/usage).
-
-7. Use the starter code (e.g, create-react-app with Lab #4 code you created in steps 1-3) to create a front-end interface with React.js to edit, view a football club, as well as the ability to add a new football club and delete old ones. 
+5. Use the starter code (e.g, create-react-app with Lab #4 code you created in steps 1-3) to create a front-end interface with React.js to edit, view a football club, as well as the ability to add a new football club and delete old ones. 
 
 **See Development Goals** below for specific implementation details for this project.
 
 
 #### Development Goals - To DO List:
+
 ***Note: The search functionality, listing of all the football clubs, and the delete functionality have been completed for you to aid you in completing the others***
+
 In this assignment, we are only focused on creating your front-end user interface to display a football club, edit, as well as add a new football club or delete existing ones.
 
 As you develop the solution to this assignment you will need to complete at least the following tasks.  
@@ -368,9 +358,6 @@ As you develop the solution to this assignment you will need to complete at leas
 
 ## Grading (25 points)
 ### Implement the following functions
-    - (5 points) AddFootballClub
-    - (5 points) EditFootballClub
-    - (5 points) FootballClubLists
-    - (5 points) RemoveFootballClub
-    - (5 points) ViewFootballClub
+    - (12.5 points) AddFootballClub
+    - (12.5 points) EditFootballClub
     - (Extra 5 points) Better ui responsiveness and professional looking

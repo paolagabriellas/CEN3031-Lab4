@@ -9,7 +9,7 @@ import React, { useState, useEffect } from "react";
  * a new data to be displayed on the frontend
  * Be creative with your ui design so users will not have a hard time interacting with your app
  */
-const AddFootballClub = (props) => {
+const EditFootballClub = (props) => {
   return <div></div>;
 };
-export default AddFootballClub;
+export default EditFootballClub;
