@@ -1,4 +1,4 @@
-### Bootcamp 4 - Introduction to Front-end Development with React
+### Lab 4 - Introduction to Front-end Development with React
 
 In this assignment, we will continue to build upon our directory application by creating a front-end interface with React.js to display the football clubs, as well as the ability to add new football club, search, edit, and delete old ones. 
 
@@ -214,7 +214,7 @@ React certainly has a learning curve, and you should take some time going throug
 -   *Egghead_io* [videos on ReactJS](https://egghead.io/courses/the-beginner-s-guide-to-react)
 
 
-**React Concepts, you'll need for this bootcamp**
+**React Concepts, you'll need for this Lab**
 
 **Note:** You _do not_ need to go through all of these, just start to get familiar enough with React-specific concepts to complete this assignment, particularly the following:
 
@@ -258,10 +258,10 @@ React certainly has a learning curve, and you should take some time going throug
 
 
 ### Assignment Overview
-For this assignment you will be building upon our Football Club application by creating a front-end interface with React.js to display all the football clubs, search/filter, edit, as well as the ability to add a new football club and delete old ones. Note: We won't connect the front-end to the back-end in this assignment, we will leave that for Bootcamp #5.
+For this assignment you will be building upon our Football Club application by creating a front-end interface with React.js to display all the football clubs, search/filter, edit, as well as the ability to add a new football club and delete old ones. Note: We won't connect the front-end to the back-end in this assignment.
 
 #### In this GitHub Repository, you are given the following files
-*When using the [create-react-app](https://github.com/facebook/create-react-app) read the readMe to get a starter application up and running, you can replace the src file in the starter application with the src file from the Bootcamp #4 assignment repo*
+*When using the [create-react-app](https://github.com/facebook/create-react-app) read the readMe to get a starter application up and running, you can replace the src file in the starter application with the src file from the Lab #4 assignment repo*
 - *data.js* - An array of all the football clubs from the `schools.json` file.
 - *index.css* - A starter CSS template for you to use for this project
 - *app.css* - An empty file that we aren't using for this project but do not delete it as it will affect the functioning of your program
@@ -283,7 +283,7 @@ For this assignment you will be building upon our Football Club application by c
 
 1. To help us get started quickly, we will be using [create-react-app](https://github.com/facebook/create-react-app#creating-an-app), a template generator for creating React Applications quickly without having to install a ton of external dependencies. 
 
-First clone accept the assignment and clone the project to your machine. Then navigate to the assignment and run these commands in terminal to create a starter application my-app (note: you can change this to bootcamp4 if you like.)
+First clone accept the assignment and clone the project to your machine. Then navigate to the assignment and run these commands in terminal to create a starter application my-app (note: you can change this to lab4 if you like.)
 
 `npx create-react-app my-app`
 
@@ -305,11 +305,11 @@ or
 
 4. It should auto-open http://localhost:3000 in the browser after it starts up a server for you. If a browser doesn't open up, copy and paste this link into your web browser with a starter page.
 
-5. After this you should open the folder and replace the src file with the file for this Bootcamp #4 github repo. You should then be able to see the lists of the football clubs (school and mascot) in a table, search/filter textbox and space to output details about your project.
+5. After this you should open the folder and replace the src file with the file for this Lab #4 github repo. You should then be able to see the lists of the football clubs (school and mascot) in a table, search/filter textbox and space to output details about your project.
 
 6. One great resource we can use to help us with our css styling is [semantic-ui](https://react.semantic-ui.com/). This helps us import styles so we don't have to manually style everything. If you're interested in this (which I highly recommend) then you can get started [here](https://react.semantic-ui.com/usage).
 
-7. Use the starter code (e.g, create-react-app with Bootcamp #4 code you created in steps 1-3) to create a front-end interface with React.js to edit, view a football club, as well as the ability to add a new football club and delete old ones. 
+7. Use the starter code (e.g, create-react-app with Lab #4 code you created in steps 1-3) to create a front-end interface with React.js to edit, view a football club, as well as the ability to add a new football club and delete old ones. 
 
 **See Development Goals** below for specific implementation details for this project.
 
@@ -357,20 +357,20 @@ As you develop the solution to this assignment you will need to complete at leas
 
 #### Submission: See Canvas for Submission Instructions
 
-## General Bootcamp Checklist
+## General Lab Checklist
 
-1. Make your changes to the bootcamp
+1. Make your changes to the Lab
 2. Add your new files (if any) with: git add
 3. Commit your changes with: git commit -am “this is what I did”
 4. Upload your changes to github with: git push
 5. Verify that you did things correctly by cloning your own project and testing it with: git clone
 6. Run the automated tests on the cloned version of your project to make sure everything works so that you can get full credit.
 
-## Grading (50 points)
+## Grading (25 points)
 ### Implement the following functions
-    - (10 points) AddFootballClub
-    - (10 points) EditFootballClub
-    - (10 points) FootballClubLists
-    - (10 points) RemoveFootballClub
-    - (10 points) ViewFootballClub
+    - (5 points) AddFootballClub
+    - (5 points) EditFootballClub
+    - (5 points) FootballClubLists
+    - (5 points) RemoveFootballClub
+    - (5 points) ViewFootballClub
     - (Extra 5 points) Better ui responsiveness and professional looking
